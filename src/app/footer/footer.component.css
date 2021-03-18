@@ -1,0 +1,10 @@
+.footer{
+    background-color: black;
+    
+    height: 200px;
+    position: absolute;
+    
+    bottom: 0%;
+    
+    box-sizing: border-box;
+}
