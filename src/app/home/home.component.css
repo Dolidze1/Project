@@ -4,4 +4,39 @@
     background:no-repeat center center scroll;
     -webkit-background-size: cover;
     background-size: cover;
+
+    
+}
+
+
+.carousel-caption a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    margin-bottom: 100px;
+    letter-spacing: 10px;
+}
+
+
+.carousel-item h5{
+    
+    padding-bottom: 50px;
+    letter-spacing: 10px;
+    color: white;
+
+}
+
+
+
+.carousel-caption{
+    bottom: 450px;
+}
+
+.carousel-control-prev-icon{
+    display: none;
+}
+
+.carousel-control-next-icon{
+    display: none;
 }

@@ -2,34 +2,55 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
+   
+
+   
+    
+}
+.nav-link{
+    color: black;
+     font-size: 17px;
+
+
 }
 
 .nav-link:hover{
-    background:  linear-gradient(to right,black , red);
+    background:  linear-gradient(to right,rgb(221, 32, 32) , rgb(107, 99, 99));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-
+.navbar-nav{
+    color: white;
+}
 
 .nav-item{
     box-sizing: border-box;
     margin-right: 80px;
     padding-left: 100px;
-    
+    color: white;
     margin-top: 30px;
+
+    
 
 }
 
 .nav-item a :hover{
     background:  linear-gradient(to right,black , red);
+    
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;}
+    -webkit-text-fill-color: transparent;
+    font-size: x-large;
+
+
+}
+
 
 .collapse{
  
     box-sizing: border-box;
-
+    color: white;
     justify-content: flex-end;
  
 }
@@ -41,6 +62,7 @@
    left:50px;
    text-align: center;
    border: none;
+   text-decoration: none;
    
     
 }
@@ -49,6 +71,10 @@
     background:  linear-gradient(to top,rgb(0, 0, 0) , red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: large;
+
+
+    
 }
 
 
@@ -70,6 +96,8 @@
     margin-top: 30px;
     margin-left: 30px;
     justify-content: space-around;
+    font-size: x-large;
+
 }
 
 @media screen and (max-width:1375px){
@@ -95,3 +123,27 @@
  
   
 }
+
+.nav-icon{
+    color: black;
+    font-size: 12px;
+}
+
+.nav-icon:hover{
+    background:  linear-gradient(to right,black , red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
+
+
+.bi{
+    background:  linear-gradient(to right,black , red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+svg:hover{
+    background:  linear-gradient(to right,black , red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
