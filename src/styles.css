@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+
+    background-image: url(https://wallpaperaccess.com/full/254361.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: auto;
+    height: auto;
+
+    overflow: hidden;
+
+}
+
+@media screen and  (max-width:1368x){
+   body{
+       background-size:cover
+   }
+}
