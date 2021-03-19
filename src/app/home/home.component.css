@@ -8,6 +8,9 @@
     
 }
 
+.carousel-inner{
+    background-size: cover;
+}
 
 .carousel-caption a{
     
@@ -39,4 +42,8 @@
 
 .carousel-control-next-icon{
     display: none;
+}
+
+.carousel-inner img{
+    height: 100%;
 }

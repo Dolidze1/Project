@@ -100,8 +100,20 @@
 
 }
 
-@media screen and (max-width:1375px){
+@media screen and (max-width:1548px){
+   
+    .collapse{
     
+    }
+   
+    .dropdown-menu{
+
+    }
+
+    .nav-link{
+
+    }
+
     .nav-itmes{
         margin-right: 4px;
         padding-left: 5px;
@@ -110,6 +122,33 @@
     .navbar-brand{
         margin-left: 5px;
         margin-top: 5px;
+    }
+}
+
+@media screen and (max-width:1533px){
+   
+    .collapse{
+     font-size: smaller;
+    }
+   
+    .dropdown-menu{
+        font-size: smaller;
+    }
+
+    .nav-link{
+         font-size: smaller;
+    }
+
+    .nav-itmes{
+        margin-right: 4px;
+        padding-left: 5px;
+    }
+ 
+    .navbar-brand{
+        margin-left: 10px;
+        margin-top: 10px;
+
+        font-size: large;
     }
 }
 
