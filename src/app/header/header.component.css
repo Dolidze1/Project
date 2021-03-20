@@ -28,7 +28,7 @@
 .nav-item{
     box-sizing: border-box;
     margin-right: 80px;
-    padding-left: 100px;
+    padding-left: 50px;
     color: white;
     margin-top: 30px;
 
@@ -95,24 +95,14 @@
     -webkit-text-fill-color: transparent;
     margin-top: 30px;
     margin-left: 30px;
-    justify-content: space-around;
+   
     font-size: x-large;
 
 }
 
 @media screen and (max-width:1548px){
    
-    .collapse{
-    
-    }
    
-    .dropdown-menu{
-
-    }
-
-    .nav-link{
-
-    }
 
     .nav-itmes{
         margin-right: 4px;
@@ -125,38 +115,63 @@
     }
 }
 
-@media screen and (max-width:1533px){
+@media screen and (max-width:1547px){
    
     .collapse{
-     font-size: smaller;
+     font-size: medium;
     }
    
     .dropdown-menu{
-        font-size: smaller;
+        font-size: medium;
     }
 
     .nav-link{
-         font-size: smaller;
+         font-size: medium;
     }
 
     .nav-itmes{
-        margin-right: 4px;
-        padding-left: 5px;
+        margin-right: 0px;
+        padding-left: 0px;
     }
  
     .navbar-brand{
-        margin-left: 10px;
-        margin-top: 10px;
-
+        margin-left: 20px;
+        margin-top: 20px;
+        
+        justify-content:none;
+        
+    
         font-size: large;
     }
 }
 
-@media screen and (max-width:375){
+@media screen and (max-width:411px){
     
-    .nav-itmes{
-        margin-right: 4px;
-        padding-left: 5px;
+    .navbar-brand{
+        margin-left: 50px;
+        margin-top: 20px;
+    
+        font-size: xx-large;
+    }
+
+    .dropdown-menu{
+        background-color: transparent;
+        position: absolute;
+       top: 1px;
+       left:130px;
+       
+       border: none;
+       text-decoration: none;
+       
+        
+    }
+
+    .collapse{
+
+        position:absolute;
+       top: 60px;
+       left: 1px;
+       font-size: medium;
     }
   
  
@@ -186,3 +201,65 @@ svg:hover{
     -webkit-text-fill-color: transparent;
 }
 
+@media screen and (max-width:1358px){
+   
+    .collapse{
+     font-size: small;
+    }
+   
+    .dropdown-menu{
+        font-size: small;
+    }
+
+    .nav-link{
+         font-size: small;
+    }
+
+    .nav-itmes{
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+ 
+    .navbar-brand{
+        margin-left: 10px;
+        margin-top: 10px;
+
+        font-size: large;
+    }
+}
+
+
+
+@media screen and (max-width:1151px){
+   
+    .collapse{
+     font-size: smaller;
+    }
+   
+    .dropdown-menu{
+        font-size: smaller;
+    }
+
+    .nav-link{
+         font-size: smaller;
+    }
+
+    .nav-itmes{
+        margin-right: 0;
+        padding-left: 0;
+    }
+ 
+    .navbar-brand{
+        margin-left: 10px;
+        margin-top: 10px;
+
+        font-size: small;
+    }
+}
+
+
+
+
+.navbar-toggler{
+   color: black;
+}
