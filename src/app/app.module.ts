@@ -10,6 +10,15 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ToursComponent } from './tours/tours.component';
 import { LoginComponent } from './login/login.component';
+import { AsiaComponent } from './asia/asia.component';
+import { AfricaComponent } from './africa/africa.component';
+import { AustraliaComponent } from './australia/australia.component';
+import { NorthAmericaComponent } from './north-america/north-america.component';
+import { SouthAmericaComponent } from './south-america/south-america.component';
+import { EuropeComponent } from './europe/europe.component';
+import { AntarktikosComponent } from './antarktikos/antarktikos.component';
+import { PasswordComponent } from './password/password.component';
+import { RegistreComponent } from './registre/registre.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +29,16 @@ import { LoginComponent } from './login/login.component';
     AboutComponent,
     ContactComponent,
     ToursComponent,
-    LoginComponent
+    LoginComponent,
+    AsiaComponent,
+    AfricaComponent,
+    AustraliaComponent,
+    NorthAmericaComponent,
+    SouthAmericaComponent,
+    EuropeComponent,
+    AntarktikosComponent,
+    PasswordComponent,
+    RegistreComponent
   ],
   imports: [
     BrowserModule,

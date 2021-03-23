@@ -63,12 +63,16 @@
    top: 50px;
    left:0px;
    text-align: center;
-   border: none;
+   border: none transparent;
    text-decoration: none;
    font-size: 18px;
    
    
     
+}
+
+.dropdown-item{
+    background-color: transparent;
 }
 
 .dropdown-item:hover{
