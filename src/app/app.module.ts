@@ -19,6 +19,7 @@ import { EuropeComponent } from './europe/europe.component';
 import { AntarktikosComponent } from './antarktikos/antarktikos.component';
 import { PasswordComponent } from './password/password.component';
 import { RegistreComponent } from './registre/registre.component';
+import { FormControl, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { RegistreComponent } from './registre/registre.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
