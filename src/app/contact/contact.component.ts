@@ -13,7 +13,7 @@ export class ContactComponent implements OnInit {
   errorText: string = '';
   showError2 : boolean = false;
  
-  variety: string[] = ["ხილი, ", 'ბოსტნეული', 'სურსათი', 'სასმელი' , 'კანცელარია','ქიმია'];
+  variety: string[] = ["Georgia, ", 'Spain', 'Italy', 'United Kingdom' , 'Greec','Japan'];
 
   contactForm= new FormGroup({
             
