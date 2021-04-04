@@ -14,12 +14,16 @@
   
 }
 
-
+.container{
+    width: 1400px;
+    height: 600px;
+}
 .info{
-    position: absolute;
-    top: 250px;
+    position: absolute ;
+    
+    top: 50px;
     width: 300px;
-    left: 20%;
+    left: -24%;
     border-radius: 10px;
     z-index: 2;
     background: rgba(0, 0, 0, 0.602);
@@ -36,15 +40,18 @@
     padding-top: 10px;
 }
 
+
+
+
 .contact{
   
   position: absolute;
    top: 200px;
    width: 1000px;
-   z-index: 1;
+  
   
    height: 500px;
-   right: 15%;
+   right: 17%;
    background: rgba(255, 255, 255, 0.753);
   
    border-radius: 10px;
@@ -123,8 +130,13 @@
     top: 250px;
     left: 100px;
     width: 805px;
+    box-sizing: border-box;
+    
 }
 
+#NUGZARA{
+ padding-left: 200px;
+}
 #button{
    position: absolute;
     top: 350px;
