@@ -1,6 +1,6 @@
 <div class="div" style="background-image: url('https://i.pinimg.com/originals/1c/85/34/1c8534b9eb50ea5c14b16872e7881001.png');"> 
 
- <div class="container">
+ 
  
     
  
@@ -12,7 +12,7 @@
 
    </div>
     
-     <div class="form-group">
+     <div class="form-group" id="formi">
         
         <form  [formGroup]="contactForm" (ngSubmit)='sendContact()' >
            
@@ -28,7 +28,7 @@
           
                 <select  id="das" class="form-control"  formControlName="varietyControl">        
                     <option id="country"value="" > --country--</option>
-                    <option  *ngFor="let variety of variety" [value]="variety" > {{variety}}</option>    
+                    <option  *ngFor="let variety of variety" id="archeva"  [value]="variety" > {{variety}}</option>    
                 </select>
              
                 <div class="form-check form-check-inline" id="male">
@@ -74,7 +74,7 @@
 
 </div>
 
-</div>
+
 
 </div>
 

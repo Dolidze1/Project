@@ -7,17 +7,18 @@
 
 .div{
     height: 100vh;
+    
     min-height: 300px;
    background-size: cover;
    background-position: center;
+ 
+   background:no-repeat center center scroll;
+  
    
   
 }
 
-.container{
-    width: 1400px;
-    height: 600px;
-}
+
 .info{
     position: absolute ;
     
@@ -31,6 +32,170 @@
     text-decoration: none;
 
 }
+
+@media screen and (max-width:1358px){
+   
+    .info{
+
+        display: none;
+    }
+}
+@media  (max-width:1030px){
+    
+    #formi{
+        height: 100px;
+        width: 200px;
+    }
+    
+   
+  
+    .contact{
+  
+        position: absolute;
+         top: 10px;
+         width: 200px;
+        
+        
+         height: 500px;
+         right: 17%;
+         background: rgba(22, 9, 9, 0.753);
+        
+         border-radius: 10px;
+      }
+      
+    
+    #name{
+        position: absolute;
+        width: 20px;
+        left: 10px;
+         top: 20px;
+         padding-left: 130px;
+     }
+     
+     #lastname{
+         position: absolute;
+         width: 50px;
+         right: 10px;
+         top: 100px;
+         padding-left: 20px;
+     
+     }
+     
+     #email{
+         position: absolute;
+         top: 150px; 
+         left: 100px;
+         width: 350px;
+         padding-left: 130px;
+     
+     }
+     
+     
+     
+     #das{
+         position: absolute;
+         top: 150px;
+         width: 350px;
+         right: 100px;
+     
+         padding-left: 130px;
+          
+     }
+     
+     #male{
+         
+         position: absolute;
+         top: 200px;
+         left: 190px;
+         color: black;
+     }
+     
+     #female{
+         position: absolute;
+         top: 200px;
+         left: 300px;
+         color: black;
+     }
+     
+     #agree{
+         position: absolute;
+         top: 200px;
+         color: black;
+         right: 180px;
+     }
+     
+     #textarea{
+         position: absolute;
+         top: 250px;
+         left: 100px;
+         width: 805px;
+         box-sizing: border-box;
+         
+     }
+     
+     #NUGZARA{
+      padding-left: 200px;
+     }
+     #button{
+        position: absolute;
+         top: 350px;
+         width: 350px;
+         left: 340px;
+     }
+
+ }
+
+@media screen and (max-width:1070px){
+   
+    
+
+   .contact{
+    position: absolute;
+    
+    width: 600px;
+   }
+
+  
+
+   #name{
+       position: absolute;
+       left: 5px;
+   }
+ 
+}
+
+
+
+@media screen and (max-width:1300px){
+   
+    
+    .contact{
+     position: absolute;
+     top: 200px;
+ 
+    
+    width: 100px;
+
+    left: 5%;
+    
+     
+     
+
+    
+    
+    }
+
+    #konteineri{
+
+        
+        
+        width: 400px;
+    }
+
+    #textarea{
+        width: 200px;
+    }
+ }
 
 .info ul  li {
     text-decoration: none;
@@ -57,13 +222,7 @@
    border-radius: 10px;
 }
 
-.form-group{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
-}
+
 
 #name{
    position: absolute;
@@ -130,7 +289,7 @@
     top: 250px;
     left: 100px;
     width: 805px;
-    box-sizing: border-box;
+    
     
 }
 
@@ -142,4 +301,432 @@
     top: 350px;
     width: 350px;
     left: 340px;
+}
+
+@media screen  and  (max-width : 1200px){
+
+
+    .contact{
+  
+        position: absolute;
+         top: 200px;
+         width: 800px;
+        
+        
+         height: 500px;
+         left: 10%;
+         background: rgba(255, 255, 255, 0.753);
+        
+         border-radius: 10px;
+      }
+
+      #name{
+        position: absolute;
+        width: 250px;
+        left: 100px;
+         top: 100px;
+         padding-left: 80px;
+     }
+     
+     #lastname{
+         position: absolute;
+         width: 250px;
+         right: 100px;
+         top: 100px;
+         padding-left: 70px;
+     
+     }
+     
+     #email{
+         position: absolute;
+         top: 150px; 
+         left: 100px;
+         width: 250px;
+         padding-left: 80px;
+     
+     }
+     
+     
+     
+     #das{
+         position: absolute;
+         top: 150px;
+         width: 250px;
+         right: 100px;
+     
+         padding-left: 90px;
+          
+     }
+     #archeva{
+         width: 20px;
+         
+     }
+     
+     #male{
+         
+         position: absolute;
+         top: 200px;
+         left: 110px;
+         color: black;
+     }
+     
+     #female{
+         position: absolute;
+         top: 200px;
+         left: 220px;
+         color: black;
+     }
+     
+     #agree{
+         position: absolute;
+         top: 200px;
+         color: black;
+         right: 120px;
+     }
+     
+     #textarea{
+         position: absolute;
+         top: 250px;
+         left: 100px;
+         width: 600px;
+         
+         
+     }
+     
+     #NUGZARA{
+      padding-left: 200px;
+     }
+     #button{
+        position: absolute;
+         top: 350px;
+         width: 350px;
+         left: 240px;
+     }
+  
+   
+}
+
+
+
+
+
+@media screen  and  (max-width : 900px){
+
+
+    .contact{
+  
+        position: absolute;
+         top: 200px;
+         width: 700px;
+        
+        
+         height: 420px;
+         left: 10%;
+         background: rgba(255, 255, 255, 0.753);
+        
+         border-radius: 10px;
+      }
+
+      #name{
+        position: absolute;
+        width: 200px;
+        left: 140px;
+         top: 100px;
+         padding-left: 60px;
+     }
+     
+     #lastname{
+         position: absolute;
+         width: 200px;
+         right: 140px;
+         top: 100px;
+         padding-left: 50px;
+     
+     }
+     
+     #email{
+         position: absolute;
+         top: 150px; 
+         left: 140px;
+         width: 200px;
+         padding-left: 60px;
+     
+     }
+     
+     
+     
+     #das{
+         position: absolute;
+         top: 150px;
+         width: 200px;
+         right: 140px;
+     
+         padding-left: 60px;
+          
+     }
+     #archeva{
+         width: 20px;
+         
+     }
+     
+     #male{
+         
+         position: absolute;
+         top: 200px;
+         left: 150px;
+         color: black;
+     }
+     
+     #female{
+         position: absolute;
+         top: 200px;
+         left: 250px;
+         color: black;
+     }
+     
+     #agree{
+         position: absolute;
+         top: 200px;
+         color: black;
+         right: 140px;
+     }
+     
+     #textarea{
+         position: absolute;
+         top: 250px;
+         left: 140px;
+         width: 420px;
+         
+         
+     }
+     
+     #NUGZARA{
+      padding-left: 200px;
+     }
+     #button{
+        position: absolute;
+         top: 330px;
+         width: 350px;
+         left: 180px;
+     }
+  
+   
+}
+
+
+@media screen  and  (max-width : 414px){
+
+
+    .contact{
+  
+        position: absolute;
+         top: 150px;
+         width: 300px;
+        
+        
+         height: 420px;
+         left: 13%;
+         background: rgba(255, 255, 255, 0.753);
+        
+         border-radius: 10px;
+      }
+
+      #name{
+        position: absolute;
+        width: 130px;
+        left: 10px;
+         top: 50px;
+         padding-left: 10px;
+
+     }
+     
+     #lastname{
+         position: absolute;
+         width: 130px;
+         right: 10px;
+         top: 50px;
+         padding-left: 10px;
+
+     
+     }
+     
+     #email{
+         position: absolute;
+         top: 100px; 
+         left: 10px;
+         width: 130px;
+         padding-left: 10px;
+     
+     }
+     
+     
+     
+     #das{
+         position: absolute;
+         top: 100px;
+         width: 130px;
+         right: 10px;
+         padding-left: 20px;
+         
+          
+     }
+     #archeva{
+         width: 20px;
+         
+     }
+     
+     #male{
+         
+         position: absolute;
+         top: 150px;
+         left: 20px;
+         color: black;
+         font-size: small;
+     }
+     
+     #female{
+         position: absolute;
+         top: 175px;
+         left: 20px;
+         color: black;
+         font-size: small;
+     }
+     
+     #agree{
+         position: absolute;
+         top: 150px;
+         color: black;
+         right: 2px;
+         font-size: small;
+     }
+     
+     #textarea{
+         position: absolute;
+         top: 220px;
+         left: 25px;
+         width: 250px;
+         
+         
+     }
+     
+     #NUGZARA{
+      padding-left: 200px;
+     }
+     #button{
+        position: absolute;
+         top: 300px;
+         width: 100px;
+         left: 100px;
+     }
+  
+   
+}
+
+
+@media screen  and  (max-width : 380px){
+
+
+    .contact{
+  
+        position: absolute;
+         top: 100px;
+         width: 300px;
+        
+        
+         height: 420px;
+         left: 10%;
+         background: rgba(255, 255, 255, 0.753);
+        
+         border-radius: 10px;
+      }
+
+      #name{
+        position: absolute;
+        width: 130px;
+        left: 10px;
+         top: 50px;
+         padding-left: 10px;
+
+     }
+     
+     #lastname{
+         position: absolute;
+         width: 130px;
+         right: 10px;
+         top: 50px;
+         padding-left: 10px;
+
+     
+     }
+     
+     #email{
+         position: absolute;
+         top: 100px; 
+         left: 10px;
+         width: 130px;
+         padding-left: 10px;
+     
+     }
+     
+     
+     
+     #das{
+         position: absolute;
+         top: 100px;
+         width: 130px;
+         right: 10px;
+         padding-left: 20px;
+         
+          
+     }
+     #archeva{
+         width: 20px;
+         
+     }
+     
+     #male{
+         
+         position: absolute;
+         top: 150px;
+         left: 20px;
+         color: black;
+         font-size: small;
+     }
+     
+     #female{
+         position: absolute;
+         top: 175px;
+         left: 20px;
+         color: black;
+         font-size: small;
+     }
+     
+     #agree{
+         position: absolute;
+         top: 150px;
+         color: black;
+         right: 2px;
+         font-size: small;
+     }
+     
+     #textarea{
+         position: absolute;
+         top: 220px;
+         left: 25px;
+         width: 250px;
+         
+         
+     }
+     
+     #NUGZARA{
+      padding-left: 200px;
+     }
+     #button{
+        position: absolute;
+         top: 300px;
+         width: 100px;
+         left: 100px;
+     }
+  
+   
 }
