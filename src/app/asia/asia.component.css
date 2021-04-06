@@ -10,15 +10,21 @@ box-sizing: border-box;
 ::-webkit-scrollbar{
     width: 25px;}
 
-
+    .card{
+        background-color: transparent;
+    }
+.card-body{
+    background-color: transparent;
+}
 
 #zemota{
-    background-image: radial-gradient(circle,#ffffff,#a6fffb);
+    background-image: radial-gradient(circle,#ffffff,#0d807a);
     margin-top: 0px;
     height: 100vh; overflow-y:visible;
       overflow-x:hidden;
       background-size: cover;
       background-position: center;
+      
     
     
 
@@ -45,14 +51,14 @@ box-sizing: border-box;
     text-align: center;
     position: sticky;
     padding-top: 100px;
-    font: 1em sans-serif;
+    font-family: Courier, monospace;
 }
 
 .other{
     text-align: center;
     position: sticky;
     padding-top: 80px;
-    font: 1em sans-serif;
+    font-family:  Courier, monospace;
 
 }
 .mb-4{
@@ -86,17 +92,19 @@ box-sizing: border-box;
 .mb-4 p{
 
     position: relative;
-    bottom: 80px;
+    bottom: 75px;
     float: right;
-    padding-right: 10px;
+    padding-right: 6px;
     font-size: x-large;
     color: white;
+    font-family: Courier, monospace;
 }
 
 .mb-4 img {
     width: 100%;
     height: 130%;
     opacity: 1;
+    background-color: transparent;
 }
 
 
@@ -105,3 +113,93 @@ box-sizing: border-box;
     height: 130%;
     opacity: 0.8;
 }
+
+
+@media screen and (max-width:1120px){
+   
+   .mb-4{
+       margin-left: 20px;
+   }
+ 
+}
+
+@media screen and (max-width:980px){
+   
+    .sec1{
+        margin-left: 200px;
+    }
+
+    .top{
+        padding-right: 150px;
+    }
+
+    .other{
+        padding-right: 150px;
+    }
+    .sec2{
+        margin-left: 200px;
+    }
+    
+ }
+
+ @media screen and (max-width:670px){
+   
+    .sec1{
+        margin-left: 200px;
+    }
+
+    .top{
+        padding-right: 100px;
+    }
+
+    .other{
+        padding-right: 100px;
+    }
+    .sec2{
+        margin-left: 200px;
+    }
+    
+ }
+
+
+ 
+
+
+ @media screen and (max-width:564px){
+   
+    .sec1{
+        margin-left: 50px;
+    }
+
+    .top{
+        padding-right:70px;
+    }
+
+    .other{
+        padding-right: 70px;
+    }
+   
+    .sec2{
+        margin-left: 130px;
+    }
+    
+ }
+ @media screen and (max-width:415px){
+   
+    .sec1{
+        margin-right: 10px;
+    }
+
+    .top{
+        padding-right:10px;
+    }
+
+    .other{
+        padding-right: 10px;
+    }
+   
+    .sec2{
+        margin-left: 40px;
+    }
+    
+ }
