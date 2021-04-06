@@ -14,19 +14,19 @@
     
      <div class="form-group" id="formi">
         
-        <form  [formGroup]="contactForm" (ngSubmit)='sendContact()' >
+        <form  [formGroup]="contactForm"  >
            
-            <input type="text" name="name"  id="name" class="form-control"   placeholder="Enter name..."  formControlName="nameControl" >
+            <input type="text" name="name"  id="name" class="form-control"   placeholder="Enter name..." [(ngModel)]="contactName" formControlName="nameControl" >
         
-            <input type="text" name="lastname"  id="lastname" class="form-control" placeholder="Enter lastname..."      formControlName="lastNameControl" >
+            <input type="text" name="lastname"  id="lastname" class="form-control" placeholder="Enter lastname..."   [(ngModel)]="contactLastName"    formControlName="lastNameControl" >
           
-            <input type="email" name="email"  id="email"  class="form-control"  placeholder="Enter email..."    formControlName="emailControl" >
+            <input type="email" name="email"  id="email"  class="form-control"  placeholder="Enter email..." [(ngModel)]="contactEmail"    formControlName="emailControl" >
 
         
           
         
           
-                <select  id="das" class="form-control"  formControlName="varietyControl">        
+                <select  id="das" class="form-control" [(ngModel)]="contactCountry"  formControlName="varietyControl">        
                     <option id="country"value="" > --country--</option>
                     <option  *ngFor="let variety of variety" id="archeva"  [value]="variety" > {{variety}}</option>    
                 </select>
@@ -54,21 +54,25 @@
                     
                   </div>
 
-                  <div class="form-group1" id="textarea">
+                  <div class="form-group1"  id="textarea">
                     
                     <textarea  class="form-control" placeholder="Your message..." id="exampleFormControlTextarea1" ></textarea>
                 </div>
               <br>
-              <button class="btn btn-dark form-control" id="button"  type="submit"> SUBMIT </button>
+              <button class="btn btn-dark form-control" id="button"  type="submit" (click)="sendContact()"> Send </button>
+              
+              <div *ngIf="showError" class="alert alert-secondary" role="alert">
+                <strong>მოხდა შეცდომა!</strong>  <button type="button" class="btn-close" data-bs-dismiss="alert"
+                    aria-label="Close"></button>
+              
+           </div>
+              
         </form>
          
         
      
-        <div *ngIf="showError" class="alert alert-danger" role="alert">
-         <strong>მოხდა შეცდომა!</strong> {{errorText}} <button type="button" class="btn-close" data-bs-dismiss="alert"
-             aria-label="Close"></button>
         
-    </div>
+     
 
  </div>
 

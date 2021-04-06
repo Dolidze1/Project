@@ -32,12 +32,15 @@ box-sizing: border-box;
     text-align: center;
     position: sticky;
     padding-top: 100px;
+    font: 1em sans-serif;
 }
 
 .other{
     text-align: center;
     position: sticky;
     padding-top: 80px;
+    font: 1em sans-serif;
+
 }
 .mb-4{
     
