@@ -525,7 +525,115 @@
         
         
          height: 420px;
-         left: 13%;
+         right: 10%;
+         background: rgba(255, 255, 255, 0.753);
+        
+         border-radius: 10px;
+      }
+
+      #name{
+        position: absolute;
+        width: 130px;
+        left: 10px;
+         top: 50px;
+         padding-left: 10px;
+
+     }
+     
+     #lastname{
+         position: absolute;
+         width: 130px;
+         right: 10px;
+         top: 50px;
+         padding-left: 10px;
+
+     
+     }
+     
+     #email{
+         position: absolute;
+         top: 100px; 
+         left: 10px;
+         width: 130px;
+         padding-left: 10px;
+     
+     }
+     
+     
+     
+     #das{
+         position: absolute;
+         top: 100px;
+         width: 130px;
+         right: 10px;
+         padding-left: 20px;
+         
+          
+     }
+     #archeva{
+         width: 20px;
+         
+     }
+     
+     #male{
+         
+         position: absolute;
+         top: 150px;
+         left: 20px;
+         color: black;
+         font-size: small;
+     }
+     
+     #female{
+         position: absolute;
+         top: 175px;
+         left: 20px;
+         color: black;
+         font-size: small;
+     }
+     
+     #agree{
+         position: absolute;
+         top: 150px;
+         color: black;
+         right: 2px;
+         font-size: small;
+     }
+     
+     #textarea{
+         position: absolute;
+         top: 220px;
+         left: 25px;
+         width: 250px;
+         
+         
+     }
+     
+     #NUGZARA{
+      padding-left: 200px;
+     }
+     #button{
+        position: absolute;
+         top: 300px;
+         width: 100px;
+         left: 100px;
+     }
+  
+   
+}
+
+@media screen  and  (max-width : 800px){
+
+
+    .contact{
+  
+        position: absolute;
+         top: 200px;
+         width: 300px;
+        
+        
+         height: 420px;
+         left: 25%;
          background: rgba(255, 255, 255, 0.753);
         
          border-radius: 10px;
