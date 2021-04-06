@@ -61,8 +61,8 @@
     background-color: transparent;
     position: absolute;
    top: 50px;
-   left:0px;
-   text-align: center;
+   left:150px;
+   
  
    border: none transparent;
    text-decoration: none;
@@ -84,7 +84,7 @@
     background:  linear-gradient(to top,rgb(0, 0, 0) , rgb(0, 0, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: large;
+    font-size: 19px;
 
 
     
