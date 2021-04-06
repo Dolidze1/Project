@@ -7,13 +7,20 @@ box-sizing: border-box;
 
 }
 
+::-webkit-scrollbar{
+    width: 25px;}
+
 
 
 #zemota{
-     
-    margin-top: 110px;
+    background-image: radial-gradient(circle,#ffffff,#a6fffb);
+    margin-top: 0px;
     height: 100vh; overflow-y:visible;
       overflow-x:hidden;
+      background-size: cover;
+      background-position: center;
+    
+    
 
 }
 
@@ -21,9 +28,15 @@ box-sizing: border-box;
     
     margin-top: 70px;
 }
+
+.sec2{
+    padding-bottom: 50px;
+    height: 100vh;
+}
 .row{
    
-    height: 80vh;
+    height: 100%;
+   
   
 }
 
@@ -51,7 +64,7 @@ box-sizing: border-box;
     margin-top: 4%;
     
     margin-left: 65px;
-    
+    background-color: transparent;
    
     border-radius: 5px;
 }
