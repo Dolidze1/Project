@@ -11,6 +11,7 @@ import { EuropeComponent } from './europe/europe.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { NorthAmericaComponent } from './north-america/north-america.component';
+import { PasswordComponent } from './password/password.component';
 import { SouthAmericaComponent } from './south-america/south-america.component';
 import { ToursComponent } from './tours/tours.component';
 
@@ -33,6 +34,8 @@ const routes: Routes = [
   {path:'noth' ,component: NorthAmericaComponent},
   {path:'south' ,component: SouthAmericaComponent},
   {path:'europe' ,component: EuropeComponent},
+  {path:'password' ,component: PasswordComponent},
+
 
 
 
