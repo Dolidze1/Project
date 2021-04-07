@@ -1,0 +1,44 @@
+
+<div class="container-fluid" id="zemota" >
+<section class="sec1">
+<app-china-about></app-china-about>
+
+</section>
+
+
+  
+    <section class="sec2" >
+
+<div class="top"> 
+ <h1>  Top  Destinations
+</h1>
+</div>
+
+
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-4" *ngFor="let game of gamesArray">
+      <div class="card h-100">
+        <img src="{{game.imageURL}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <a routerLink="/china">  <h5 class="card-title">{{game.name}}</h5></a>
+            <p class="card-text"> {{game.tours}}</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <nav aria-label="...">
+        <ul class="pagination pagination-sm">
+          <li class="page-item active" aria-current="page">
+            <span class="page-link">1</span>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+        </ul>
+      </nav>
+    </section>
+    
+    
+      
+
+</div>
+

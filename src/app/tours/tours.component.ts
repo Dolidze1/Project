@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ToursComponent implements OnInit {
 
+  showDiv:boolean=false
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
+showDate(){
+  this.showDiv=true
+}
 }

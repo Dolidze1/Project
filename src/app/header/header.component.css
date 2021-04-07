@@ -75,8 +75,12 @@
 .dropdown-item{
     background-color: transparent;
     color: black;
+       
+    display: inline-block;
    font-size: large;
 }
+
+
 .dropdown-item:focus{
     visibility: hidden;
 }

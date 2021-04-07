@@ -5,6 +5,7 @@ import { AfricaComponent } from './africa/africa.component';
 import { AntarktikosComponent } from './antarktikos/antarktikos.component';
 import { AsiaComponent } from './asia/asia.component';
 import { AustraliaComponent } from './australia/australia.component';
+import { ChinaComponent } from './china/china.component';
 import { ContactComponent } from './contact/contact.component';
 import { EuropeComponent } from './europe/europe.component';
 import { HomeComponent } from './home/home.component';
@@ -21,6 +22,9 @@ const routes: Routes = [
   {path:'contact' ,component: ContactComponent},
   {path:'tours' ,component: ToursComponent},
   {path:'login' ,component: LoginComponent},
+  {path:'tours' ,component: ToursComponent},
+  
+  {path:'china' ,component: ChinaComponent},
 
   {path:'asia' ,component: AsiaComponent},
   {path:'africa' ,component: AfricaComponent},

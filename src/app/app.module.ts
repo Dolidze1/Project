@@ -20,6 +20,10 @@ import { AntarktikosComponent } from './antarktikos/antarktikos.component';
 import { PasswordComponent } from './password/password.component';
 import { RegistreComponent } from './registre/registre.component';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
+import { ChinaComponent } from './china/china.component';
+import { ChinaAboutComponent } from './china-about/china-about.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTabsModule } from '@angular/material/tabs';
 
 
 @NgModule({
@@ -40,12 +44,20 @@ import { FormControl, ReactiveFormsModule } from '@angular/forms';
     EuropeComponent,
     AntarktikosComponent,
     PasswordComponent,
-    RegistreComponent
+    RegistreComponent,
+    ChinaComponent,
+    ChinaAboutComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatTabsModule
+
+  
+    
+    
     
   ],
   providers: [],
