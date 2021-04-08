@@ -23,7 +23,13 @@ import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { ChinaComponent } from './china/china.component';
 import { ChinaAboutComponent } from './china-about/china-about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatTabsModule } from '@angular/material/tabs';
+import { MatTabsModule  } from '@angular/material/tabs';
+import {MatStepperModule} from '@angular/material/stepper';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
+import {MatSliderModule} from '@angular/material/slider';
+
+
+
 
 
 @NgModule({
@@ -53,7 +59,11 @@ import { MatTabsModule } from '@angular/material/tabs';
     AppRoutingModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MatTabsModule
+    MatTabsModule,
+    IvyCarouselModule,
+    MatStepperModule,
+    MatSliderModule
+    
 
   
     

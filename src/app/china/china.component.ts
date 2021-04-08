@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./china.component.css']
 })
 export class ChinaComponent implements OnInit {
-  gamesArray: any = [
+  CountryArray: any = [
     {imageURL:"https://www.nationsonline.org/gallery/China/Shanghai-Pudong.jpg" , name : " Shanghai" , tours : "1,200"},
     {imageURL:"https://upload.wikimedia.org/wikipedia/commons/2/20/Chongqing_World_Financial_Centre.jpg" , name : " Chongqing" , tours : "400"},
     {imageURL:"https://scandinaviantraveler.com/sites/default/files/styles/facebook_share/public/beijing_topp_1140.jpg?itok=stoxyMj8" , name : " beijing" , tours : "1,200"},

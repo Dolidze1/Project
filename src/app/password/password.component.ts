@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , } from '@angular/core';
+import {FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-password',
@@ -7,9 +8,38 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PasswordComponent implements OnInit {
 
-  constructor() { }
 
-  ngOnInit(): void {
+
+
+
+  isLinear = false;
+
+  
+    firstFormGroup= new FormGroup({
+
+      firstCtrl:  new FormControl(''),
+      lastNameControl:  new FormControl(''),
+
+    })
+    secondFormGroup= new FormGroup({
+
+    })
+    thirdFromGroup= new FormGroup({
+
+    })
+   
+
+  constructor(private _formBuilder: FormBuilder) {}
+
+  ngOnInit() {
+    this.firstFormGroup = this._formBuilder.group({
+      firstCtrl: ['', Validators.required]
+    });
+    this.secondFormGroup = this._formBuilder.group({
+      secondCtrl: ['', Validators.required]
+    });
+    this.thirdFromGroup = this._formBuilder.group({
+      thirdCtrl: ['', Validators.required]
+    });
   }
-
 }

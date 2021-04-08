@@ -1,0 +1,24 @@
+.cal{
+    margin-top: 199px;
+}
+
+.carousel-cell{
+    margin-top: 80px;
+    margin-left: 90px;
+    
+}
+
+.item{
+     text-align: center;
+    border: 0px solid black;
+    margin-top: 10px;
+    width: 60%;
+    
+    border-radius: 100px; 
+    background-color: rgb(146, 145, 145);
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}

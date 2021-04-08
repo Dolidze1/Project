@@ -4,7 +4,58 @@
     background-color: whitesmoke;
 }
 
+.media img{
+ width: 400px;
+}
+
 .div{
-    height: 100%;
-    width: 100%;
+    
+        position: relative;
+        background-color: transparent;
+        margin-top: -180px;
+    
+}
+
+.carousel-cell{
+    margin-top: 80px;
+    margin-left: 90px;
+
+    
+}
+
+.item1{
+    text-align: center;
+   border: 0px solid black;
+   margin-top: 10px;
+   width: 60%;
+   background-color: transparent;
+   border-radius: 100px; 
+   background-color: rgb(0, 0, 0);
+
+}
+
+.item2{
+    text-align: center;
+   border: 0px solid black;
+   margin-top: 10px;
+   width: 60%;
+   background-color: transparent;
+   border-radius: 100px; 
+   background-color: rgb(231, 99, 99);
+
+}
+
+.item{
+     text-align: center;
+    border: 0px solid black;
+    margin-top: 10px;
+    width: 60%;
+    background-color: transparent;
+    border-radius: 100px; 
+    background-color: rgb(146, 145, 145);
+
+}
+a{
+    color: white;
+    text-decoration: none;
 }

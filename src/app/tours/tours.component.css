@@ -1,12 +1,235 @@
-button{
+.karuseli{
+    position: relative;
+    background-color: transparent;
+    margin-top: 100px;
+}
+
+
+.carousel-cell{
+    margin-top: 80px;
+    margin-left: 90px;
+
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.item{
     text-align: center;
-    position: absolute;
-    top: 200px;
+   border: 0px solid black;
+   margin-top: 10px;
+   width: 60%;
+   background-color: transparent;
+   border-radius: 100px; 
+   background-color: rgb(0, 0, 0);
+
+}
+#zemota{
+    
+    margin-top: 0px;
+    height: 100%; overflow-y:visible;
+      overflow-x:hidden;
+      background-size: cover;
+      background-position: center;
+      
+    
+    
 
 }
 
-.container{
+.marcxena{
+
+    position: relative;
+    border:1px lightgray  solid;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 115vh;
+    width: 350px;
+}
+
+mat-slider {
+    width: 300px;
+  }
+  
+ #datee1{
+     width: 300px;
+     margin-left: 20px;
+     
+ }
+  .dro2 label{
+    
+    margin-left:  20px;
+    margin-top: 10px;
+    font-size: larger;
+    color: seashell;
+
+    
+  }
+
+  .dro2 {
+    
+ 
+   background-color: rgb(25, 54, 50);
+    height: 120px;
+  }
+  .dro3{
+ 
+
+      
+  }
+
+  .dro3 h4 {
+
+     margin-left: 20px;
+     font-size: larger;
+      
+}
+
+.dro3 .form-check{
+ 
+    margin-left: 20px;
+    margin-top: 5px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+      
+}
+.price{
+    box-sizing: border-box;
+}
+
+.price h4{
+
+    margin-left: 20px;
+    font-size: larger;
+    
+}
+
+.price .sl{
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.price p{
+
+    font-size: smaller;
+}
+#p1{
+ position: relative ;
+ margin-top: 20px;
+ margin-left: 20px;
+ 
+}
+#p2{
+
+    position: relative ;
+    margin-left: 250px;
+    margin-top: -40px;
+}
+hr{
+    margin-top: 40px;
+    width: 300px;
+}
+
+.duration h4{
+
+     margin-left: 20px;
+     font-size: larger;
+}
+
+.duration .form-check{
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+
+}
+
+.rating h4{
+    margin-left: 20px;
+    font-size: larger;
+}
+
+.rating .form-check{
+    margin-left: 20px;
+    
+}
+
+.fill-yellow{
+    fill: goldenrod;
+}
+
+.special h4{
+
+    margin-left: 20px;
+    font-size: larger;
+
+}
+.media{
+    float: right;
+    margin-right: 440px;
+    border:solid 1px rgba(155, 155, 155, 0.363);
+    position: relative;
+    border-radius: 20px;
+    
+ height: 320px;
+    
+    margin-top: 10px;
+    
+    
+}
+.media-body{
+    width: 600px;
+    height: 400px;
+}
+
+.mr-3{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.mt-0 h5{
     position: absolute;
-         width: 300px;
-    top: 400px;
+    
+}
+.media-body h5{
+   margin-bottom: 30px;
+   position: absolute;
+   top: 20px;
+}
+
+
+.media2{
+    margin-top: 50px;
+}
+
+.media-body p{
+    margin-bottom: 30px;
+    position: absolute;
+    top: 120px;
+ }
+
+ .media button{
+     position: absolute;
+     right: 10px;
+     width: 200px;
+     bottom: 20px;
+     margin-right: 10px;
+ }
+.media small{
+    position: absolute;
+    right: -100px;
+    width: 200px;
+    top: 50px ;
+    margin-right: 1px;
+}
+ .media .price{
+    position: absolute;
+    right: -100px;
+    width: 200px;
+    top: 80px ;
+    margin-right: 10px;
 }

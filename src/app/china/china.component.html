@@ -16,12 +16,12 @@
 
 
   <div class="row row-cols-1 row-cols-md-3">
-    <div class="col mb-4" *ngFor="let game of gamesArray">
+    <div class="col mb-4" *ngFor="let Country of CountryArray">
       <div class="card h-100">
-        <img src="{{game.imageURL}}" class="card-img-top" alt="...">
+        <img src="{{Country.imageURL}}" class="card-img-top" alt="...">
         <div class="card-body">
-            <a routerLink="/china">  <h5 class="card-title">{{game.name}}</h5></a>
-            <p class="card-text"> {{game.tours}}</p>
+            <a routerLink="/china">  <h5 class="card-title">{{Country.name}}</h5></a>
+            <p class="card-text"> {{Country.tours}}</p>
         </div>
       </div>
     </div>
